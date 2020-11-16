@@ -1,0 +1,50 @@
+workoutName: Level 1 - Cardio
+totalTime: 30 mins
+workout:
+  - type: interval
+    duration: 45s
+    rest: 90s
+    exercises:
+      - name: Burpies
+      - name: Push Ups
+      - name: Squats
+      - name: Triceps Dips
+      - name: Leg Raises
+      - name: Planks
+      - name: Shadow Box
+  - type: interval
+    duration: 45s
+    rest: 90s
+    exercises:
+      - name: Burpies
+      - name: Push Ups
+      - name: Squats
+      - name: Triceps Dips
+      - name: Ice Squats
+      - name: Planks
+      - name: Shadow Box
+  - type: interval
+    duration: 45s
+    rest: 90s
+    exercises:
+      - name: Burpies
+      - name: Hover Push Ups
+      - name: Pistol Squats
+      - name: Triceps Dips
+      - name: Lunges
+      - name: Pike Push Ups
+      - name: Shadow Box
+  - type: interval
+    duration: 45s
+    rest: 90s
+    exercises:
+      - name: Burpies
+      - name: Hover Push Ups
+      - name: Pistol Squats
+      - name: Triceps Dips
+      - name: Lunges
+      - name: Pike Push Ups
+      - name: Shadow Box
+  - type: set
+    duration: 3m
+    name: Cool down
