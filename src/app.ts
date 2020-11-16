@@ -9,9 +9,15 @@ const exerciseFile = process.env.FILE || "./src/data/cardio-bodyweight.yml";
 const json: Workout = safeLoad(readFileSync(exerciseFile, "utf-8")) as Workout;
 
 const describeWorkout = async (workout: Workout): Promise<void> => {
+  console.log({workout});
+  
   await speak(workout.workoutName);
   await speak(workout.totalTime);
 };
 
-describeWorkout(json);
-startWorkout(json)
+const start = async () => {
+  await describeWorkout(json);
+  await startWorkout(json);
+} 
+
+start()
