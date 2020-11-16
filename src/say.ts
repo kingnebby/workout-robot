@@ -10,5 +10,5 @@ interface SpeakAsync {
 const speakAsync: SpeakAsync = promisify(say.speak.bind(say));
 
 export const speak = async (text: string) => {
-  await speakAsync(text, voice);
+  return speakAsync(text, voice, 1.0);
 };

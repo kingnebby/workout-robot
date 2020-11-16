@@ -1,7 +1,7 @@
 export type Workout = {
   workoutName: string;
   totalTime: string;
-  workout: any;
+  workout: Activity[];
 };
 
 export type Activity = Interval | Set;
