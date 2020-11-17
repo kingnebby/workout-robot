@@ -1,0 +1,32 @@
+workoutName: Workouts for Orphans - Safari Workout
+totalTime: 20 mins
+workout:
+  - type: interval
+    duration: 60s
+    rest: 120s
+    exercises:
+      - name: Prowling Tigers, crouch low using only your hands and feet
+      - name: Meerkat Surprise, squat low and jump up
+      - name: Alligator Crawl, crawl around on your hands and needs
+      - name: Terrified Antelope, jump around as if you are running from a tiger
+      - name: Playful Hyena, put your hands on the floor and kick your knees underneath you
+  - type: interval
+    duration: 60s
+    rest: 120s
+    exercises:
+      - name: Prowling Tigers, crouch low using only your hands and feet
+      - name: Meerkat Surprise, squat low and jump up
+      - name: Alligator Crawl, crawl around on your hands and needs
+      - name: Terrified Antelope, jump around as if you are running from a tiger
+      - name: Playful Hyena, put your hands on the floor and kick your knees underneath you
+  - type: interval
+    duration: 45s
+    exercises:
+      - name: Prowling Tigers, crouch low using only your hands and feet
+      - name: Meerkat Surprise, squat low and jump up
+      - name: Alligator Crawl, crawl around on your hands and needs
+      - name: Terrified Antelope, jump around as if you are running from a tiger
+      - name: Playful Hyena, put your hands on the floor and kick your knees underneath you
+  - type: set
+    duration: 3m
+    name: Cool down
