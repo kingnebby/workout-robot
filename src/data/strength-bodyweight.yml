@@ -1,0 +1,49 @@
+workoutName: Level 1 - Strength
+totalTime: IDK
+workout:
+  - type: set
+    name: Warm Up - Squat Knees
+    duration: 20 seconds
+  - type: set
+    name: Warm Up - Push Ups
+    duration: 20 seconds
+  - type: set
+    name: Warm Up - Sit ups
+    duration: 20 seconds
+    rest: 30 seconds
+  - type: set
+    name: Pistol Squat
+    duration: 30 seconds
+    rest: 60 seconds
+  - type: set
+    name: Low Hand Push Up - Chest Level
+    duration: 30 seconds
+    rest: 60 seconds
+  - type: set
+    name: Dips
+    duration: 30 seconds
+    rest: 60 seconds
+  - type: set
+    name: Pistol Squat
+    duration: 30 seconds
+    rest: 60 seconds
+  - type: set
+    name: Low Hand Push Up - Chest Level
+    duration: 30 seconds
+    rest: 60 seconds
+  - type: set
+    name: Dips
+    duration: 30 seconds
+    rest: 60 seconds
+  - type: set
+    name: Pistol Squat
+    duration: 30 seconds
+    rest: 60 seconds
+  - type: set
+    name: Low Hand Push Up - Chest Level
+    duration: 30 seconds
+    rest: 60 seconds
+  - type: set
+    name: Dips
+    duration: 30 seconds
+    rest: 60 seconds
