@@ -53,3 +53,11 @@ export const playFiveSecondIndicator = async (duration: string) => {
   await sleepTillFiveSecTillEnd(duration);
   playFiveSecondSound();
 };
+
+export const notifiyWorkoutComplete = async () => {
+  await speak("Workout complete!");
+  await speak("Workout complete!");
+  await speak("Workout complete!");
+  await speak("Workout complete!");
+  await speak("Workout complete!");
+}

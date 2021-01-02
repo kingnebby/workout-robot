@@ -1,0 +1,32 @@
+workoutName: Workouts for Scaly Orphans - Dragon Workout
+totalTime: 20 mins
+workout:
+  - type: interval
+    duration: 60s
+    rest: 120s
+    exercises:
+      - name: Prowling Black Dragon, crouch low using only your hands and feet
+      - name: Dragon Leaps, squat low and jump up
+      - name: Red Dragon Crawl, crawl around on your hands and needs
+      - name: Flying Dragon Flaps, jump around as if you are running from a tiger
+      - name: Angry Stopping Dragon, put your hands on the floor and kick your knees underneath you
+  - type: interval
+    duration: 60s
+    rest: 120s
+    exercises:
+      - name: Prowling Black Dragon, crouch low using only your hands and feet
+      - name: Dragon Leaps, squat low and jump up
+      - name: Red Dragon Crawl, crawl around on your hands and needs
+      - name: Flying Dragon Flaps, jump around as if you are running from a tiger
+      - name: Angry Stopping Dragon, put your hands on the floor and kick your knees underneath you
+  - type: interval
+    duration: 45s
+    exercises:
+      - name: Prowling Black Dragon, crouch low using only your hands and feet
+      - name: Dragon Leaps, squat low and jump up
+      - name: Red Dragon Crawl, crawl around on your hands and needs
+      - name: Flying Dragon Flaps, jump around as if you are running from a tiger
+      - name: Angry Stopping Dragon, put your hands on the floor and kick your knees underneath you
+  - type: set
+    duration: 3m
+    name: Cool down

@@ -2,7 +2,7 @@ import { safeLoad } from "js-yaml";
 import { readFileSync } from "fs";
 import { speak } from "./say";
 import { Workout } from "./types";
-import { startWorkout } from "./workout";
+import { notifiyWorkoutComplete, startWorkout } from "./workout";
 
 const exerciseFile = process.env.FILE || "./src/data/cardio-bodyweight.yml";
 
@@ -16,6 +16,7 @@ const describeWorkout = async (workout: Workout): Promise<void> => {
 const start = async () => {
   await describeWorkout(json);
   await startWorkout(json);
+  await notifiyWorkoutComplete();
 } 
 
 start()
